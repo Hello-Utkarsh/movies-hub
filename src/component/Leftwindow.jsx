@@ -8,10 +8,10 @@ export default function leftwindow() {
       <div className='flex justify-between w-[100%] py-9 px-10'>
         <h1 className='text-white text-3xl font-semibold'>Movies<span className='text-red-500'> .Hub</span></h1>
         <div className='text-white'>
-          <span className="material-symbols-outlined" style={{ fontSize: '33px' }}>
+          <span className="material-symbols-outlined cursor-pointer transition ease-in hover:text-red-500" style={{ fontSize: '33px' }}>
             chevron_left
           </span>
-          <span className="material-symbols-outlined" style={{ fontSize: '33px' }}>
+          <span className="material-symbols-outlined cursor-pointer transition ease-in hover:text-red-500" style={{ fontSize: '33px' }}>
             chevron_right
           </span>
         </div>
